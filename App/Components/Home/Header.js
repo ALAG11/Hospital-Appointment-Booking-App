@@ -15,10 +15,11 @@ export default function Header() {
             <Image source={{uri:user.imageUrl}}
             style={{width:45, height:45, borderRadius:99}}/>
             <View>
-                <Text>Hello,👋</Text>
+                <Text style={{fontFamily:'Orbitron-Medium'}}>Hello,👋</Text>
             <Text style={{
                 fontSize:18,
-                fontWeight:'bold'}}>
+                fontFamily:'Orbitron-Bold',
+                }}>
             {user.fullName}</Text>
             </View>
         </View>
